@@ -1,0 +1,22 @@
+Input Description:
+A set of N strings
+
+Output Description:
+Alphabetically sorted set of strings
+
+Sample Input :
+3
+InfinityWar EndGame Avengers
+Sample Output :
+Avengers EndGame InfinityWar
+
+Code:
+
+let A = userInput[1].split(" ");
+
+let N = userInput[0];
+
+
+    let order = A.sort();
+  
+    console.log(order.join(" "));
